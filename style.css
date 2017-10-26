@@ -1,3 +1,7 @@
+body {
+  width: auto;
+}
+
 /****Header****/
 
 h1 {
@@ -46,8 +50,8 @@ header {
 
 /**Section**/
 section {
-  width: 90%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 h3 {
@@ -105,7 +109,6 @@ li::before {
 
 .selected::before {
   content: '☑ ';
-  text-decoration: none;
 }
 
 /*Author*/

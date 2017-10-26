@@ -99,6 +99,15 @@ li::before {
   content: '☐ ';
 }
 
+.selected {
+  text-decoration: line-through;
+}
+
+.selected::before {
+  content: '☑ ';
+  text-decoration: none;
+}
+
 /*Author*/
 
 #author {

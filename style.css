@@ -120,17 +120,19 @@ h5 {
 }
 
 #author {
-  border-bottom: solid 10px #efefef;
   padding: 3%;
   width: 95%;
   margin: auto;
+}
+
+#author-border {
   border-top: solid 10px #efefef;
 }
 
 #author img {
   float: left;
   width: 150px;
-  margin: 3% 3% 1% 0;
+  margin: 3% 3% 3% 0;
 }
 
 #author p {
@@ -194,4 +196,54 @@ footer {
 small {
   font-family: 'Lora', serif;
   color: #aeb0b2;
+}
+
+/*Media Inquireies*/
+
+@media only screen and (min-width: 1000px) {
+  /*section*/
+  p {
+    font-size: 24px;
+  }
+  /*author*/
+  h5 {
+    font-size: 2.5em;
+  }
+
+  #author {
+    float: left;
+    display: inline-block;
+    width: 70%;
+  }
+
+  #author p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 10%;
+    width: 15%;
+    display: inline-block;
+    float: right;
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+
+  .clearfix:after {
+    content: '';
+    display: table;
+    clear: right;
+  }
+  /*footer*/
+  #logo-line img {
+    width: 60px;
+  }
+
+  small {
+    font-size: 14px;
+  }
 }

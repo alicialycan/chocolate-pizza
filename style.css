@@ -126,6 +126,7 @@ h5 {
 
 #author-border {
   border-top: solid 10px #efefef;
+  margin-top: 5%;
 }
 
 #author img {
@@ -250,17 +251,17 @@ MEDIA QUERIES
   #shopping-list {
     padding: 5%;
   }
- 
+
   /*section*/
   p {
     font-size: 24px;
   }
-  
+
   /*author*/
   h5 {
     font-size: 2.5em;
   }
-  
+
   .left-list {
     float: left;
   }

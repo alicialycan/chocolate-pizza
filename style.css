@@ -3,6 +3,12 @@ body {
 }
 
 /****Header****/
+header {
+  border-bottom: solid 10px #efefef;
+  padding-bottom: 3%;
+  width: 90%;
+  margin: auto;
+}
 
 h1 {
   font-family: 'Yellowtail', cursive;
@@ -39,13 +45,6 @@ h2 {
 .social-icons {
   display: inline-block;
   width: 70px;
-}
-
-header {
-  border-bottom: solid 10px #efefef;
-  padding-bottom: 3%;
-  width: 90%;
-  margin: auto;
 }
 
 /**Section**/
@@ -198,16 +197,72 @@ small {
   color: #aeb0b2;
 }
 
-/*Media Inquireies*/
+/******************************
+MEDIA QUERIES
+*********************************/
 
 @media only screen and (min-width: 1000px) {
+  /**header**/
+  header:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  #logo {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  h1 {
+    font-size: 2.5em;
+    text-align: left;
+    display: inline-block;
+  }
+  h3 {
+    font-size: 3em;
+  }
+  #logo-block {
+    float: left;
+    width: 30%;
+  }
+  #logo {
+    width: 70px;
+    margin-left: 0;
+  }
+  #social-icons-block {
+    float: right;
+    clear: left;
+    position: absolute;
+    right: 5.5%;
+    top: 10%;
+  }
+  #social-icons-block img {
+    width: 25px;
+  }
+  #printer {
+    float: right;
+  }
+  #printer::before {
+    content: url('images/print-icon.png') ' ';
+  }
+  .choco-pizza-image {
+    width: 100%;
+  }
+  #shopping-list {
+    padding: 5%;
+  }
+ 
   /*section*/
   p {
     font-size: 24px;
   }
+  
   /*author*/
   h5 {
     font-size: 2.5em;
+  }
+  
+  .left-list {
+    float: left;
   }
 
   #author {
@@ -238,6 +293,7 @@ small {
     display: table;
     clear: right;
   }
+
   /*footer*/
   #logo-line img {
     width: 60px;

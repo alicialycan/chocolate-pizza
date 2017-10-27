@@ -13,6 +13,13 @@ h2 {
   margin-top: 0;
 }
 
+header {
+  border-bottom: solid 10px #efefef;
+  padding-bottom: 3%;
+  width: 90%;
+  margin: auto;
+}
+
 #logo {
   width: 110px;
   float: left;
@@ -37,17 +44,12 @@ h2 {
   width: 70px;
 }
 
-header {
-  border-bottom: solid 10px #efefef;
-  padding-bottom: 3%;
-  width: 90%;
-  margin: auto;
-}
-
 /**Section**/
-section {
-  width: 90%;
-  margin-left: 5%;
+p {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  text-indent: 5%;
+  color: #797a7b;
 }
 
 h3 {
@@ -66,20 +68,23 @@ h4 {
   margin-top: 0;
 }
 
+section {
+  width: 90%;
+  margin-left: 5%;
+}
+
 .choco-pizza-image {
   width: 90%;
   margin: auto;
 }
 
-p {
-  font-family: 'Lora', serif;
-  font-size: 14px;
-  text-indent: 5%;
-  color: #797a7b;
-  margin-top: 2.5em;
-}
-
 /*Recipe*/
+
+li {
+  font-family: 'Coming Soon', cursive;
+  font-size: 2em;
+  line-height: 1;
+}
 
 #shopping-list {
   background: url("images/list-bg.png");
@@ -88,13 +93,13 @@ p {
   padding: 15% 20%;
 }
 
-li {
-  font-family: 'Coming Soon', cursive;
-  font-size: 2em;
-  line-height: 1;
-}
-
 /*Author*/
+
+h5 {
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
 
 #author {
   border-bottom: solid 10px #efefef;
@@ -109,25 +114,19 @@ li {
   margin: 0 5% 5% 0;
 }
 
-h5 {
-  font-family: 'Lora', serif;
-  font-size: 1.5em;
-  margin-bottom: 0;
-}
-
 #author p {
   text-indent: 0;
 }
 
 button {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase;
   background-color: #ba7155;
   color: #ffffff;
   margin: auto;
   width: 100%;
   text-align: center;
-  padding: .5em;
+  padding: .2em;
   display: inline-block;
 }

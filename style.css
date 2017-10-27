@@ -113,23 +113,24 @@ li::before {
 
 /*Author*/
 
+h5 {
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
 #author {
   border-bottom: solid 10px #efefef;
-  padding-bottom: 3%;
-  width: 90%;
+  padding: 3%;
+  width: 95%;
   margin: auto;
+  border-top: solid 10px #efefef;
 }
 
 #author img {
   float: left;
   width: 150px;
-  margin: 0 5% 5% 0;
-}
-
-h5 {
-  font-family: 'Lora', serif;
-  font-size: 1.5em;
-  margin-bottom: 0;
+  margin: 3% 3% 1% 0;
 }
 
 #author p {
@@ -138,13 +139,59 @@ h5 {
 
 button {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase;
   background-color: #ba7155;
   color: #ffffff;
   margin: auto;
   width: 100%;
   text-align: center;
-  padding: .5em;
+  padding: .4em;
   display: inline-block;
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  margin: 5%;
+}
+
+#logo-line {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#logo-line:before,
+#logo-line:after {
+  content: " ";
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  height: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+#logo-line:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#logo-line:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#logo-line img {
+  vertical-align: middle;
+  width: 100px;
+}
+
+small {
+  font-family: 'Lora', serif;
+  color: #aeb0b2;
 }

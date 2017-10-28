@@ -100,6 +100,7 @@ li {
 
 li::before {
   content: '☐ ';
+  display: inline-block;
 }
 
 .selected {
@@ -108,6 +109,8 @@ li::before {
 
 .selected::before {
   content: '☑ ';
+  text-decoration: none;
+  display: inline-block;
 }
 
 /*Author*/
